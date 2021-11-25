@@ -5,6 +5,7 @@
  
     <!-- MAIN -->
     <main>
+       <Hero />
       <Content />
        <Icone />
        <Dc />
@@ -24,6 +25,7 @@ import Content from '@/components/Content.vue';
 import Icone from '@/components/Icone.vue';
 import Dc from '@/components/Dc.vue';
 import Footer from '@/components/Footer.vue';
+import Hero from '@/components/Hero.vue';
 
 export default {
   name: 'App',
@@ -32,7 +34,8 @@ export default {
     Content,
     Icone,
     Dc,
-    Footer
+    Footer,
+    Hero
   }
   }
 </script>
