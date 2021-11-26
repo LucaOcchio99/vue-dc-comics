@@ -1,4 +1,3 @@
-export const name = 'Luca';
 
 export default [
     {

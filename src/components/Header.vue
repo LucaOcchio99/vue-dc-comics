@@ -86,7 +86,6 @@ export default {
 <style scoped lang="scss">
    header {
      display: flex;
-     background-color: rgb(133, 125, 125);
 
      .left{
        width: 50%;

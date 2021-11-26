@@ -16,6 +16,7 @@
                   <Card :url="product.thumb" :title="product.series"/>
               </li>
           </ul>
+            <button> LOAD MORE </button>
       </div>
    </section>
 </template>
@@ -33,7 +34,7 @@ export default {
   },
   data() {
       return {
-          hero: 
+         products : ProdSeries, 
       }
   }
 }
@@ -46,9 +47,7 @@ export default {
  }
 
 section {
-    margin-bottom: 2rem;
-    padding: 4rem 0;
-    background: lightblue;
+    background: rgba(0, 0, 0, 0.856);
 }
 
 .boxes {
@@ -57,8 +56,19 @@ section {
     list-style: none;
 
     li {
-        width: calc(100% / 4);
-        padding: 2px;
+        width: calc(100% / 6);
+        padding: 6px;
+        color: white;
+        
     }
+}
+
+button {
+    padding: 10px;
+    background: rgba(0, 0, 255, 0.644);
+    color: white;
+    margin-bottom: 2rem;
+    border: none;
+    cursor: pointer;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <h1>{{ text }}</h1>
+  <h1 class="testo">{{ text }}</h1>
 </template>
 
 <script>
@@ -12,5 +12,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
+.testo {
+color: lightblue;
+}
 </style>

@@ -28,7 +28,7 @@ export default {
 
 <style scoped lang="scss">
 section {
-    background: lightgrey;
+    background: rgba(0, 0, 0, 0.856);
 }
     .container {
         display: flex;
@@ -47,6 +47,10 @@ section {
 
                 li {
                     padding: 5px;
+                   
+                  a {
+                      color: lightblue;
+                  }
                 }
                  }
         }
