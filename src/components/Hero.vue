@@ -42,7 +42,7 @@ export default {
 
 <style scoped lang = 'scss' >
  img {
-     height: 250px;
+     height: 500px;
      width: 100%;
  }
 
@@ -65,10 +65,11 @@ section {
 
 button {
     padding: 10px;
-    background: rgba(0, 0, 255, 0.644);
+    background: rgba(66, 66, 228, 0.644);
     color: white;
     margin-bottom: 2rem;
     border: none;
     cursor: pointer;
+    border-radius: 50px;
 }
 </style>

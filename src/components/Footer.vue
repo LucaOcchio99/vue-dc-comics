@@ -50,6 +50,7 @@ section {
                    
                   a {
                       color: lightblue;
+                      text-decoration: none;
                   }
                 }
                  }
@@ -59,6 +60,15 @@ section {
             display: flex;
             justify-content: flex-start;
             align-items: center;
+
+            button {
+                padding: 10px;
+                color: white;
+                background-color: rgba(66, 66, 228, 0.644);
+                border-radius: 50px;
+                border: none;
+                cursor: pointer;
+            }
         }
     }
 </style>
